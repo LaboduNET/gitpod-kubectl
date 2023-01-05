@@ -4,6 +4,6 @@ vscode:
   extensions:
     - ms-azuretools.vscode-docker
 #see https://dev.to/stack-labs/gitpod-how-to-use-kubectl-and-manage-kubernetes-clusters--4edp    
-tasks:
-  - name: Set Glados K8s context
-    command: echo $K8S_CTX | base64 -d > ~/.kube/config    
+#tasks:
+#  - name: Set Glados K8s context
+#    command: echo $K8S_CTX | base64 -d > ~/.kube/config    
